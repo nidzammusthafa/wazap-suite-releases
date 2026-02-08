@@ -1,21 +1,53 @@
 # WazapSuite Public Releases
 
-This directory is intended to be a git submodule or a separate git repository linked to:
-**[nidzammusthafa/wazap-suite-releases](https://github.com/nidzammusthafa/wazap-suite-releases)**
+Official release repository for **WazapSuite Desktop Application**.
 
-## Purpose
+**Latest Version:** [v1.0.0](https://github.com/nidzammusthafa/wazap-suite-releases/releases/tag/v1.0.0)
 
-This repository serves as a **"Public Release Channel"** for the WazapSuite Desktop application.
+## Download
 
-- **Private Source Code:** The source code for the application is kept private in the main repository.
-- **Public Installers:** The compiled `.exe` installers and update metadata (`latest.yml`) are pushed here.
+| Platform | Installer |
+|----------|-----------|
+| **Windows** (x64) | [Download Setup.exe](https://github.com/nidzammusthafa/wazap-suite-releases/releases/download/v1.0.0/WazapSuite.Setup.1.0.0.exe) |
 
-## How it Works
+---
 
-The Auto-Updater in the React/Electron app is configured to check this specific repository for new releases, ensuring that users can receive updates without exposing the proprietary source code.
+## What's New in v1.0.0
 
-## Usage
+### 🤖 AI Enhancements
+- **AI Toggle:** Enable/Disable AI chatbot for specific contacts directly from the inbox.
+- **Block Contact:** Easily block annoying contacts.
+- **Admin Takeover:** AI automatically pauses if you reply manually.
+- **Smart Delay:** AI waits for user to finish typing (batch processing) before replying.
 
-1. Build the desktop app: `npm run make`
-2. Copy the artifacts from `desktop/out/make` to this folder.
-3. Commit and push/publish the release to GitHub Releases in this repository.
+### 🗺️ Maps Scraper 2.0
+- **Auto-Save:** Automatically save scraped contacts with phone numbers to your database.
+- **Textarea Fix:** Improved UI for pasting bulk queries.
+- **Sticky Headers:** Better table navigation with sticky headers.
+
+### 🛡️ Desktop Features
+- **Auto Update:** Application can now update itself automatically.
+- **Log Export:** Easily export logs for debugging.
+- **Data Safety:** Update process preserves your local database and WhatsApp sessions.
+
+---
+
+## How to Update
+
+### From Older Version
+1. Download the new installer.
+2. Run `WazapSuite Setup 1.0.0.exe`.
+3. It will overwrite the existing installation while **keeping your data safe** (WhatsApp sessions & history).
+
+### Auto Update (Future Versions)
+Starting from v1.0.0, the app will automatically check for updates on startup and notify you when a new version is available.
+
+---
+
+## Repository Info
+
+This repository serves as a **"Public Release Channel"**.
+- **Source Code:** Private
+- **Releases:** Public
+
+The Auto-Updater in the application checks this repository for `latest.yml` and release artifacts.
