@@ -1,8 +1,8 @@
 version: 1.0.3
 files:
-  - url: WazapSuite-Setup-1.0.3.exe
-    sha512: 7FzxWn1OonYP/5Ai+YD5KbNNi7cgh1y3/YIBQjrpOuOJQ9ooqBX3Irivhq5oIj6TfgpZc4WH5CKLo0NNSU7CFg==
-    size: 253002960
-path: WazapSuite-Setup-1.0.3.exe
-sha512: 7FzxWn1OonYP/5Ai+YD5KbNNi7cgh1y3/YIBQjrpOuOJQ9ooqBX3Irivhq5oIj6TfgpZc4WH5CKLo0NNSU7CFg==
-releaseDate: '2026-02-10T09:44:31.455Z'
+  - url: WazapSuite.Setup.1.0.3.exe
+    sha512: yFHrQ4jv1dTJlczg7a6Fe5yIdbUCjHBEjIm5VQm+ocHD+uqH4UR4gHdwSo0B3wWSHiq1T6EeTqHRwuzQ7LLTnA==
+    size: 253004086
+path: WazapSuite.Setup.1.0.3.exe
+sha512: yFHrQ4jv1dTJlczg7a6Fe5yIdbUCjHBEjIm5VQm+ocHD+uqH4UR4gHdwSo0B3wWSHiq1T6EeTqHRwuzQ7LLTnA==
+releaseDate: '2026-02-10T10:00:25.848Z'
