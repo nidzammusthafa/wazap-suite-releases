@@ -8,7 +8,7 @@ Official release repository for **WazapSuite Desktop Application**.
 
 | Platform | Installer |
 |----------|-----------|
-| **Windows** (x64) | [Download Setup.exe](https://github.com/nidzammusthafa/wazap-suite-releases/releases/download/v1.0.3/WazapSuite.Setup.1.0.3.exe) |
+| **Windows** (x64) | [Download Setup.exe](https://github.com/nidzammusthafa/wazap-suite-releases/releases/download/v1.0.3/WazapSuite-Setup-1.0.3.exe) |
 
 ---
 
