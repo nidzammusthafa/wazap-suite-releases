@@ -2,15 +2,27 @@
 
 Official release repository for **WazapSuite Desktop Application**.
 
-**Latest Version:** [v1.0.0](https://github.com/nidzammusthafa/wazap-suite-releases/releases/tag/v1.0.0)
+**Latest Version:** [v1.0.3](https://github.com/nidzammusthafa/wazap-suite-releases/releases/tag/v1.0.3)
 
 ## Download
 
 | Platform | Installer |
 |----------|-----------|
-| **Windows** (x64) | [Download Setup.exe](https://github.com/nidzammusthafa/wazap-suite-releases/releases/download/v1.0.0/WazapSuite.Setup.1.0.0.exe) |
+| **Windows** (x64) | [Download Setup.exe](https://github.com/nidzammusthafa/wazap-suite-releases/releases/download/v1.0.3/WazapSuite.Setup.1.0.3.exe) |
 
 ---
+
+## What's New in v1.0.3
+
+### 🤖 AI Flow Builder
+- **Visual Flow Builder:** Drag-and-drop interface to create complex chatbot flows.
+- **Templates:** Pre-built templates for Sales, Support, etc.
+- **AI Generator:** Generate flow structure from natural language description.
+- **Simulator:** Test your flows with an interactive chat simulator.
+
+### 🛠️ Improvements
+- **Backend Optimization:** Enhanced SEA build process.
+- **Bug Fixes:** Fixed issues in flow execution logic.
 
 ## What's New in v1.0.0
 
